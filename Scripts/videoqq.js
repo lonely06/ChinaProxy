@@ -1,4 +1,18 @@
 //腾讯视频签到
+/*
+
+[rewrite_local]
+#腾讯视频获取ck
+#浏览器访问https://film.qq.com/
+#或访问https://film.qq.com/weixin/birthday.html?url_from=V8Club
+^https:\/\/access.video.qq.com\/user\/auth_refresh url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
+
+[task_local]
+1 10 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/videoqq.png, enabled=true
+
+[mitm]
+hostname = *.video.qq.com
+*/
 
 const chavy = init()
 const cookieName = '腾讯视频'
