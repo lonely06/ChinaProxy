@@ -5,13 +5,13 @@ const $ = Env(jobname)
 
 
 //循环次数
-let num =0
+let num =2
 
 //刷金循环次数
-let num2=0
+let num2=2
 
 //金币控制
-let coin=0
+let coin=10000
 
 
 //全部设置为0 无法提现 提现异常 只需要保持0-0-0
