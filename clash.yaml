@@ -41,7 +41,6 @@ proxies:
     #   max-early-data: 2048
     #   early-data-header-name: Sec-WebSocket-Protocol
  
- 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -100,8 +99,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - L
+      
 rule-providers:
-
   Direct:
     type: http
     behavior: classical
@@ -150,8 +149,6 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Global/Global_Classical.yaml"
     path: ./ruleset/Global_Classical.yaml
     interval: 86400
-
-
 
 rules:
   - RULE-SET,Direct,DIRECT
