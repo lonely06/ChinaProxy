@@ -62,6 +62,12 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
+  - name: 🎯 国内IP池
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
   - name: 🌏 国外网站
     type: select
     proxies:
@@ -142,6 +148,13 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China.yaml"
     path: ./ruleset/China.yaml
     interval: 86400
+  
+  ChinaIPs_Classical:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs/ChinaIPs_Classical.yaml"
+    path: ./ruleset/ChinaIPs_Classical.yaml
+    interval: 86400
 
   Global_Classical:
     type: http
@@ -158,6 +171,7 @@ rules:
   - RULE-SET,Microsoft,Ⓜ️ 微软服务
   - RULE-SET,Global_Classical,🌏 国外网站
   - RULE-SET,China,🎯 全球直连
+  - RULE-SET,ChinaIPs_Classical,🎯 国内IP池
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
   - IP-CIDR,172.16.0.0/12,DIRECT
