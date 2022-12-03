@@ -1,4 +1,5 @@
-### 墨鱼自用Web网站
+### Web网站
+(源自：@ddgksf2021)[https://github.com/ddgksf2013/WebSite/blob/main/README.md]
 * 更新时间：2022-12-01
 * 备份一些WebUrl
 * 备注带★为QX网页优化对象
