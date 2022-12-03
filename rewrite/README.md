@@ -1,5 +1,5 @@
 ### Web网站
-(源自：@ddgksf2021)[https://github.com/ddgksf2013/WebSite/blob/main/README.md]
+[源自：@ddgksf2021](https://github.com/ddgksf2013/WebSite/blob/main/README.md)
 * 更新时间：2022-12-01
 * 备份一些WebUrl
 * 备注带★为QX网页优化对象
@@ -57,7 +57,5 @@
 | Netflav | https://netflav.com/ | AV界奈飞 |
 | Hpjav | https://hpjav.tv/ | 还行，凑合 |
 
-```diff
-+ 通知频道： https://t.me/ddgksf2021
-- 投稿助手： https://t.me/ddgksf2013_bot
-```
+来源： https://t.me/ddgksf2021
+
